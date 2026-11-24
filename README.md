@@ -11,3 +11,9 @@ Hands-on assignments completed during my DevOps & Cloud Computing training (iHUB
 | 5 | Kubernetes | [Kubernetes Assignment](Kubernetes_Assignment.pdf) | Deploying a 3-node Kubernetes cluster |
 
 **Tools:** Git, GitHub, Docker, Ansible, Jenkins, Kubernetes, AWS EC2, Linux (Ubuntu)
+
+## Code
+
+| Folder | What's inside |
+|--------|---------------|
+| [Ansible](Ansible/) | Ansible config, inventory and a playbook that installs Apache and deploys a web page |
