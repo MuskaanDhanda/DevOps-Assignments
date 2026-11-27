@@ -1,5 +1,7 @@
 # DevOps Assignments
 
+[![CI](https://github.com/MuskaanDhanda/DevOps-Assignments/actions/workflows/ci.yml/badge.svg)](https://github.com/MuskaanDhanda/DevOps-Assignments/actions/workflows/ci.yml)
+
 Hands-on assignments completed during my DevOps & Cloud Computing training (iHUB DivyaSampark, IIT Roorkee). Each PDF has the task list plus the commands I ran and screenshots of the results.
 
 | # | Module | Assignment | Topics covered |
