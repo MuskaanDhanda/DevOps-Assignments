@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ansible:
+    name: Lint Ansible assignment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yamllint and Ansible
+        run: pip install yamllint ansible-core
+
+      - name: Lint YAML
+        run: yamllint -d relaxed Ansible/ .github/workflows/
+
+      - name: Ansible syntax check
+        working-directory: Ansible
+        run: ansible-playbook -i hosts --syntax-check playbook.yaml
